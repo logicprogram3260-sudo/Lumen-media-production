@@ -1139,3 +1139,30 @@ select.form-control-editorial {
         height: 320px;
     }
 }
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: #fff;
+        margin-top: 10px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav .btn-sage-primary {
+        width: 100%;
+        justify-content: center;
+    }
+}
+.offcanvas{
+    width:300px;
+}
+
+.offcanvas-body .nav-link{
+    padding:15px 0;
+    font-size:18px;
+    border-bottom:1px solid #eee;
+}
